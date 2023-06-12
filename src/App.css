@@ -13,10 +13,12 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  max-width: 280px;
 }
 .number-container {
   text-align: right;
   color: white;
+  text-overflow: ellipsis;
   font-size: 70px;
   font-weight: 170;
   border-radius: 8px;
